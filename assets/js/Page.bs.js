@@ -2,6 +2,7 @@
 
 var Curry = require("bs-platform/lib/js/curry.js");
 var React = require("react");
+var Caml_int32 = require("bs-platform/lib/js/caml_int32.js");
 var ReasonReact = require("reason-react/src/ReasonReact.js");
 
 var component = ReasonReact.statelessComponent("Page");
@@ -10,6 +11,17 @@ function handleClick(_event, _self) {
   console.log("clicked!");
   return /* () */0;
 }
+
+function factorial(n) {
+  var match = n <= 0;
+  if (match) {
+    return 1;
+  } else {
+    return Caml_int32.imul(n, factorial(n - 1 | 0));
+  }
+}
+
+console.log(factorial(6));
 
 function make(message, _children) {
   return /* record */[
@@ -36,5 +48,6 @@ function make(message, _children) {
 
 exports.component = component;
 exports.handleClick = handleClick;
+exports.factorial = factorial;
 exports.make = make;
 /* component Not a pure module */
