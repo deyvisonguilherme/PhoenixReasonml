@@ -1,0 +1,16 @@
+# ninja log v5
+0	13	1548425271	js/SimpleRoot.mlast	36e37621bf139046
+0	13	1548425271	js/Page.mlast	248b3fe00e98d9d1
+13	14	1548425271	js/SimpleRoot.mlast.d	bebd4d28d17d0a6d
+13	32	1548425271	js/Page.mlast.d	d3ac99d47881a77a
+0	15	1548425271	js/Page.cmj	a734f35487aab508
+0	15	1548425271	/home/deyvison/Documentos/Projetos/private/phoenixReasonml/assets/js/Page.bs.js	a734f35487aab508
+0	15	1548425271	js/Page.cmi	a734f35487aab508
+15	24	1548425271	js/SimpleRoot.cmj	32eb92cd61fad784
+15	24	1548425271	/home/deyvison/Documentos/Projetos/private/phoenixReasonml/assets/js/SimpleRoot.bs.js	32eb92cd61fad784
+15	24	1548425271	js/SimpleRoot.cmi	32eb92cd61fad784
+0	65	1548442488	js/Page.mlast	248b3fe00e98d9d1
+65	115	1548442488	js/Page.mlast.d	d3ac99d47881a77a
+0	44	1548442488	js/Page.cmj	a734f35487aab508
+0	44	1548442488	/home/deyvison/Documentos/Projetos/private/phoenixReasonml/assets/js/Page.bs.js	a734f35487aab508
+0	44	1548442488	js/Page.cmi	a734f35487aab508
